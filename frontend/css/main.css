@@ -1,0 +1,39 @@
+header
+{background-color: lightgreen;}
+body
+{
+  /* background-color: lightblue; */
+font-size: 16px;
+}
+.header-1 {
+border-bottom: lightgrey 1px solid;
+
+}
+.ul-header{
+  display: flex;
+  flex-basis: 233px 233px;
+  flex-direction: row;
+  list-style-type:none;
+  justify-content: space-around;
+
+
+}
+.blue-font-1 {
+  color:  rgb(37, 99, 255);
+}
+nav ul li {
+
+  /* align-items: center;
+  align-content: center; */
+
+
+}
+.try-for-free {
+   background-color: rgb(37, 99, 255);
+   border: none;
+   color: white;
+   padding: 13px 13px;
+   text-align: center;
+   display: inline-block;
+   font-size: 16px;
+   border-radius: 5px;}
