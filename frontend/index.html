@@ -4,13 +4,16 @@
     <meta charset="utf-8">
     <meta keywords="react next">
     <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
     <title>App classic | A next js landing page</title>
 </head>
 <body>
+  <div class="intro">
+
   <header class="header-1">
     <div class="logo-1">
       <a href="https://react-next-landing.redq.io/appclassic">
-      <img src="../images/react-logo1.png" alt="React-logo"
+      <img class="react-logo-1" src="../images/react-logo1.png" alt="React-logo"
       width="130px">
       </a>
     </div>
@@ -28,21 +31,26 @@
       </nav>
   </header>
   <main>
-  <section class="section-1">
-<!-- flexbox or float -->
-<h1 class="h1-1">The Revolution of Ultimate Platform to monitor your task</h1>
-    <p class="rating-1"><!-- 4/5 stars -->
+    <section class="section-1">
+<div class="flex-container-1">
+  <div class="flex-general-1">
+    <p class="rating"><!-- 4/5 stars -->
     4.9 of 5 By
     <img src="../images/microsoft.svg" alt="microsoft logo"></p>
+    <h1 class="h1-1">The Revolution of Ultimate Platform to monitor your task</h1>
     <p class="p-1">Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore magna ipsum dolor sit amet consectetur.</p>
-    <p class="try-for-free">Start Free trail</p>
-    <p>Watch video</p>
-    <img src="../images/banner-dates-1.png" alt="picture with dates">
-    <p>Trusted by companies like:
-    <img src="../images/newyorktimes.svg" alt="the new york times logo">
-    <img src="../images/amazon.svg" alt="amazon logo">
-    <img src="../images/evernote.svg" alt="evernote logo">
-    <img src="../images/verge.svg" alt="verge logo"> </p>
+    <div class="flexbox-3">
+    <span><a href="#" class="# try-for-free">Start Free trail</a></span>
+    <span><a href="#" class="blue-font-1">Watch video</a></span>
+  </div>
+</div>
+  <img class="flexbox-img-2" src="../images/banner-dates-1.png" alt="picture with dates">
+      </div>
+      <p class="companies-1">Trusted by companies like:
+        <img src="../images/newyorktimes.svg" alt="the new york times logo">
+        <img src="../images/amazon.svg" alt="amazon logo">
+        <img src="../images/evernote.svg" alt="evernote logo">
+        <img src="../images/verge.svg" alt="verge logo"> </p>
   </section>
   <section class="section-2">
 
@@ -50,10 +58,11 @@
   </main>
 
 <footer>
-
+<!-- <script src="js/alert"></script> -->
 
 </footer>
 
 <!-- подключить js -->
+</div>
 </body>
 </html>

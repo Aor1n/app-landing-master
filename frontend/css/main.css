@@ -1,32 +1,69 @@
-header
-{background-color: lightgreen;}
-body
-{
-  /* background-color: lightblue; */
-font-size: 16px;
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  width: 100%;
+  max-width: 1200px;
+
+  margin-left: 350px;
+  margin-right: 350px;
+  /* line-height: normal; */
+
+/* Header */
 }
-.header-1 {
-border-bottom: lightgrey 1px solid;
+.intro {
+  width: 100%;
+  height: 100vh;
+}
+header {
 
 }
-.ul-header{
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+.header-1 {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+border-bottom: lightgrey 1px solid;
+width: 100%;
+max-width: 1200px;
+margin: 0 auto;
+}
+/* header::after {
+  content: "";
+  display: block;
+  width: 500px;
+  height: 5px;
+  border-bottom: solid lightgrey;
+} */
+.react-logo-1 {
+display: flex;
+margin: 25px 0;
+}
+.ul-header {
   display: flex;
-  flex-basis: 233px 233px;
+align-items: baseline;
+
+
+
+}
+
+.ul-header li {
+  display: flex;
+  margin: 5px 20px;
+
+
+  /* flex-basis: 150px;
   flex-direction: row;
   list-style-type:none;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: baseline; */
 
 
 }
 .blue-font-1 {
   color:  rgb(37, 99, 255);
-}
-nav ul li {
-
-  /* align-items: center;
-  align-content: center; */
-
-
 }
 .try-for-free {
    background-color: rgb(37, 99, 255);
@@ -34,6 +71,48 @@ nav ul li {
    color: white;
    padding: 13px 13px;
    text-align: center;
-   display: inline-block;
    font-size: 16px;
-   border-radius: 5px;}
+   border-radius: 5px;
+   max-width: 100px;
+   text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+.flex-general-1 h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+/*                          */
+/*                          */
+.flex-container-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.flex-general-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-basis: 400px;
+
+}
+.flexbox-img-2 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+  align-self: flex-end;
+}
+.flex
+.flex-container-1 span {
+
+}
+/*                          */
+/*                          */
+.companies-1 {
+  text-align: center;
+}
+.companies-1 img {
+  padding: 0 15px;
+}
+/* Main */
